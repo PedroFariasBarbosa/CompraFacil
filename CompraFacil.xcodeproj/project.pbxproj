@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94111ED17919EC4009773ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111EC17919EC4009773ED /* UIKit.framework */; };
+		A94111EF17919EC4009773ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111EE17919EC4009773ED /* Foundation.framework */; };
+		A94111F117919EC4009773ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111F017919EC4009773ED /* CoreGraphics.framework */; };
+		A94111F717919EC4009773ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94111F517919EC4009773ED /* InfoPlist.strings */; };
+		A94111F917919EC4009773ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94111F817919EC4009773ED /* main.m */; };
+		A94111FD17919EC4009773ED /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94111FC17919EC4009773ED /* CFAppDelegate.m */; };
+		A94111FF17919EC4009773ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A94111FE17919EC4009773ED /* Default.png */; };
+		A941120117919EC4009773ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A941120017919EC4009773ED /* Default@2x.png */; };
+		A941120317919EC4009773ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A941120217919EC4009773ED /* Default-568h@2x.png */; };
+		A941120617919EC4009773ED /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A941120517919EC4009773ED /* CFViewController.m */; };
+		A941120917919EC4009773ED /* CFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A941120717919EC4009773ED /* CFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A94111E917919EC4009773ED /* CompraFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompraFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94111EC17919EC4009773ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94111EE17919EC4009773ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94111F017919EC4009773ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A94111F417919EC4009773ED /* CompraFacil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompraFacil-Info.plist"; sourceTree = "<group>"; };
+		A94111F617919EC4009773ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94111F817919EC4009773ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94111FA17919EC4009773ED /* CompraFacil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompraFacil-Prefix.pch"; sourceTree = "<group>"; };
+		A94111FB17919EC4009773ED /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		A94111FC17919EC4009773ED /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		A94111FE17919EC4009773ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A941120017919EC4009773ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A941120217919EC4009773ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A941120417919EC4009773ED /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		A941120517919EC4009773ED /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		A941120817919EC4009773ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94111E617919EC4009773ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94111ED17919EC4009773ED /* UIKit.framework in Frameworks */,
+				A94111EF17919EC4009773ED /* Foundation.framework in Frameworks */,
+				A94111F117919EC4009773ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94111E017919EC4009773ED = {
+			isa = PBXGroup;
+			children = (
+				A94111F217919EC4009773ED /* CompraFacil */,
+				A94111EB17919EC4009773ED /* Frameworks */,
+				A94111EA17919EC4009773ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94111EA17919EC4009773ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94111E917919EC4009773ED /* CompraFacil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94111EB17919EC4009773ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94111EC17919EC4009773ED /* UIKit.framework */,
+				A94111EE17919EC4009773ED /* Foundation.framework */,
+				A94111F017919EC4009773ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94111F217919EC4009773ED /* CompraFacil */ = {
+			isa = PBXGroup;
+			children = (
+				A94111FB17919EC4009773ED /* CFAppDelegate.h */,
+				A94111FC17919EC4009773ED /* CFAppDelegate.m */,
+				A941120417919EC4009773ED /* CFViewController.h */,
+				A941120517919EC4009773ED /* CFViewController.m */,
+				A941120717919EC4009773ED /* CFViewController.xib */,
+				A94111F317919EC4009773ED /* Supporting Files */,
+			);
+			path = CompraFacil;
+			sourceTree = "<group>";
+		};
+		A94111F317919EC4009773ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94111F417919EC4009773ED /* CompraFacil-Info.plist */,
+				A94111F517919EC4009773ED /* InfoPlist.strings */,
+				A94111F817919EC4009773ED /* main.m */,
+				A94111FA17919EC4009773ED /* CompraFacil-Prefix.pch */,
+				A94111FE17919EC4009773ED /* Default.png */,
+				A941120017919EC4009773ED /* Default@2x.png */,
+				A941120217919EC4009773ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94111E817919EC4009773ED /* CompraFacil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A941120C17919EC4009773ED /* Build configuration list for PBXNativeTarget "CompraFacil" */;
+			buildPhases = (
+				A94111E517919EC4009773ED /* Sources */,
+				A94111E617919EC4009773ED /* Frameworks */,
+				A94111E717919EC4009773ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompraFacil;
+			productName = CompraFacil;
+			productReference = A94111E917919EC4009773ED /* CompraFacil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94111E117919EC4009773ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pedro Farias Barbosa";
+			};
+			buildConfigurationList = A94111E417919EC4009773ED /* Build configuration list for PBXProject "CompraFacil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A94111E017919EC4009773ED;
+			productRefGroup = A94111EA17919EC4009773ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94111E817919EC4009773ED /* CompraFacil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94111E717919EC4009773ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94111F717919EC4009773ED /* InfoPlist.strings in Resources */,
+				A94111FF17919EC4009773ED /* Default.png in Resources */,
+				A941120117919EC4009773ED /* Default@2x.png in Resources */,
+				A941120317919EC4009773ED /* Default-568h@2x.png in Resources */,
+				A941120917919EC4009773ED /* CFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94111E517919EC4009773ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94111F917919EC4009773ED /* main.m in Sources */,
+				A94111FD17919EC4009773ED /* CFAppDelegate.m in Sources */,
+				A941120617919EC4009773ED /* CFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A94111F517919EC4009773ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94111F617919EC4009773ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A941120717919EC4009773ED /* CFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A941120817919EC4009773ED /* en */,
+			);
+			name = CFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A941120A17919EC4009773ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A941120B17919EC4009773ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A941120D17919EC4009773ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompraFacil/CompraFacil-Prefix.pch";
+				INFOPLIST_FILE = "CompraFacil/CompraFacil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A941120E17919EC4009773ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompraFacil/CompraFacil-Prefix.pch";
+				INFOPLIST_FILE = "CompraFacil/CompraFacil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94111E417919EC4009773ED /* Build configuration list for PBXProject "CompraFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A941120A17919EC4009773ED /* Debug */,
+				A941120B17919EC4009773ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A941120C17919EC4009773ED /* Build configuration list for PBXNativeTarget "CompraFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A941120D17919EC4009773ED /* Debug */,
+				A941120E17919EC4009773ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94111E117919EC4009773ED /* Project object */;
+}
