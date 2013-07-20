@@ -7,6 +7,7 @@
 //
 
 #import "CFViewController.h"
+#import "CFMenuController.h"
 
 @interface CFViewController ()
 
@@ -26,4 +27,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+- (void)dealloc {
+    [super dealloc];
+}
+- (IBAction)btnBarSupermercados:(id)sender {
+}
+
+- (IBAction)btnBarProdutos:(id)sender {
+}
+
+- (IBAction)btnBarMenu:(id)sender {
+    
+    CFMenuController *menuController = [[CFMenuController alloc] init];
+    [self.navigationController pushViewController:menuController animated:YES];
+    [menuController release];
+}
 @end

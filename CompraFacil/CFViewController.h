@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CFViewController : UIViewController
-
+- (IBAction)btnBarSupermercados:(id)sender;
+- (IBAction)btnBarProdutos:(id)sender;
+- (IBAction)btnBarMenu:(id)sender;
 @end
