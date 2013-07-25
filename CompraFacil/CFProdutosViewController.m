@@ -1,18 +1,18 @@
 //
-//  CFEstabelecimentosView.m
+//  CFProdutosViewController.m
 //  CompraFacil
 //
-//  Created by Pedro Farias Barbosa on 20/07/13.
+//  Created by Humberto Mendes on 24/07/13.
 //  Copyright (c) 2013 Pedro Farias Barbosa. All rights reserved.
 //
 
-#import "CFEstabelecimentosView.h"
+#import "CFProdutosViewController.h"
 
-@interface CFEstabelecimentosView ()
+@interface CFProdutosViewController ()
 
 @end
 
-@implementation CFEstabelecimentosView
+@implementation CFProdutosViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
