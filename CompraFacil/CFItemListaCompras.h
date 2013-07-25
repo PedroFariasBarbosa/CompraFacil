@@ -10,15 +10,15 @@
 
 @interface CFItemListaCompras : NSObject
 {
-    NSString *nomeProduto;
+    /*NSString *nomeProduto;
     BOOL comprado;
     NSNumber *quantidade;
-    NSDecimalNumber *valorProduto;
+    NSDecimalNumber *valorProduto;*/
 }
 
-@property (nonatomic,retain) NSString *nomeProduto;
+/*@property (nonatomic,retain) NSString *nomeProduto;
 @property BOOL comprado;
 @property (nonatomic,retain)NSNumber *quantidade;
-@property (nonatomic,retain)NSDecimalNumber *valorProduto;
+@property (nonatomic,retain)NSDecimalNumber *valorProduto;*/
 
 @end

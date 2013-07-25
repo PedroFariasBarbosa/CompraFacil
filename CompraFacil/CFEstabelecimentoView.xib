@@ -44,7 +44,7 @@
 					<object class="IBUILabel" id="928086389">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 20}, {203, 21}}</string>
+						<string key="NSFrame">{{20, 20}, {205, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -53,7 +53,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Nome do estabelecimento:</string>
+						<string key="IBUIText">Nome do Estabelecimento:</string>
 						<object class="NSColor" key="IBUITextColor" id="811049826">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -75,7 +75,7 @@
 					<object class="IBUILabel" id="524880707">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 87}, {233, 21}}</string>
+						<string key="NSFrame">{{20, 87}, {235, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -84,7 +84,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Descrição do estabelecimento:</string>
+						<string key="IBUIText">Descrição do Estabelecimento:</string>
 						<reference key="IBUITextColor" ref="811049826"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -130,7 +130,7 @@
 					<object class="IBUILabel" id="692216161">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{25, 263}, {230, 21}}</string>
+						<string key="NSFrame">{{25, 263}, {232, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -139,7 +139,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Endereço do estabelecimento:</string>
+						<string key="IBUIText">Endereço do Estabelecimento:</string>
 						<reference key="IBUITextColor" ref="811049826"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -874,10 +874,10 @@
 							<reference ref="543722982"/>
 							<reference ref="936838717"/>
 							<reference ref="410508352"/>
-							<reference ref="692216161"/>
 							<reference ref="164633409"/>
 							<reference ref="463263343"/>
 							<reference ref="454772455"/>
+							<reference ref="692216161"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
