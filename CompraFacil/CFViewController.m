@@ -7,7 +7,11 @@
 //
 
 #import "CFViewController.h"
+#import "CFFluxControl.h"
+
 #import "CFMenuController.h"
+#import "CFEstabelecimentosView.h"
+#import "CFProdutosViewController.h"
 
 @interface CFViewController ()
 
@@ -35,15 +39,21 @@
     [super dealloc];
 }
 - (IBAction)btnBarSupermercados:(id)sender {
+    [self startActivity:[[CFProdutosViewController alloc] init]];
 }
 
 - (IBAction)btnBarProdutos:(id)sender {
+    [self startActivity:[[CFEstabelecimentosView alloc] init]];
 }
 
 - (IBAction)btnBarMenu:(id)sender {
-    
-    CFMenuController *menuController = [[CFMenuController alloc] init];
-    [self.navigationController pushViewController:menuController animated:YES];
-    [menuController release];
+    [self startActivity:[[CFMenuController alloc] init]];
 }
+
+- (void)startActivity:(UIViewController*)uiTarget{
+    CFFluxControl *fControl = [[CFFluxControl alloc] init];
+    [fControl startActivity:self uiTarget:uiTarget];
+    [fControl release];
+}
+
 @end
