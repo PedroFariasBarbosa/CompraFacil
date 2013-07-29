@@ -1,5 +1,5 @@
 //
-//  CFViewController.h
+//  CFViewMenu.h
 //  CompraFacil
 //
 //  Created by Pedro Farias Barbosa on 29/07/13.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CFViewController : UIViewController
+@interface CFViewMenu : UIViewController
+- (IBAction)btnPaginaInicial:(id)sender;
 - (IBAction)btnSupermercados:(id)sender;
 - (IBAction)btnProdutos:(id)sender;
-- (IBAction)btnMenu:(id)sender;
+- (IBAction)btnListasCompras:(id)sender;
 @end

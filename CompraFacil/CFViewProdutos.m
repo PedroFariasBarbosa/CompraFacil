@@ -1,28 +1,38 @@
 //
-//  CFViewController.m
+//  CFViewProdutos.m
 //  CompraFacil
 //
 //  Created by Pedro Farias Barbosa on 29/07/13.
 //  Copyright (c) 2013 Pedro Farias Barbosa. All rights reserved.
 //
 
-#import "CFViewController.h"
-#import "CFFluxControl.h"
-#import "CFViewSupermercados.h"
 #import "CFViewProdutos.h"
+#import "CFViewSupermercados.h"
+#import "CFFluxControl.h"
 #import "CFViewMenu.h"
+#import "CFViewListas.h"
 
-
-@interface CFViewController ()
+@interface CFViewProdutos ()
 
 @end
 
-@implementation CFViewController
+@implementation CFViewProdutos
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"Produtos";
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,21 +43,23 @@
 
 -(void) viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
 - (IBAction)btnSupermercados:(id)sender {
     [self startActivity:[[CFViewSupermercados alloc] init]];
 }
 
-- (IBAction)btnProdutos:(id)sender {
-    [self startActivity:[[CFViewProdutos alloc] init]];
+- (IBAction)btnListas:(id)sender {
+    [self startActivity:[[CFViewListas alloc] init]];
 }
 
 - (IBAction)btnMenu:(id)sender {
     [self startActivity:[[CFViewMenu alloc] init]];
 }
-
+- (void)dealloc {
+    [super dealloc];
+}
 - (void)startActivity:(UIViewController*)uiTarget{
     CFFluxControl *fControl = [[CFFluxControl alloc] init];
     [fControl startActivity:self uiTarget:uiTarget];

@@ -7,174 +7,221 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9197332179316A00036B02D /* CFMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9197330179316A00036B02D /* CFMenuController.m */; };
-		A9197333179316A00036B02D /* CFMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9197331179316A00036B02D /* CFMenuController.xib */; };
-		A9268E561799F0520065158E /* CFEstabelecimentoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9268E541799F0520065158E /* CFEstabelecimentoView.m */; };
-		A9268E571799F0520065158E /* CFEstabelecimentoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9268E551799F0520065158E /* CFEstabelecimentoView.xib */; };
-		A9268E5B179B3F790065158E /* CFListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9268E59179B3F790065158E /* CFListView.m */; };
-		A9268E5C179B3F790065158E /* CFListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9268E5A179B3F790065158E /* CFListView.xib */; };
-		A9268E62179B45010065158E /* CFItemListaCompras.m in Sources */ = {isa = PBXBuildFile; fileRef = A9268E61179B45000065158E /* CFItemListaCompras.m */; };
-		A9268E66179B48120065158E /* CFEstabelecimentosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9268E64179B48120065158E /* CFEstabelecimentosView.m */; };
-		A9268E67179B48120065158E /* CFEstabelecimentosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9268E65179B48120065158E /* CFEstabelecimentosView.xib */; };
-		A94111ED17919EC4009773ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111EC17919EC4009773ED /* UIKit.framework */; };
-		A94111EF17919EC4009773ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111EE17919EC4009773ED /* Foundation.framework */; };
-		A94111F117919EC4009773ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94111F017919EC4009773ED /* CoreGraphics.framework */; };
-		A94111F717919EC4009773ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94111F517919EC4009773ED /* InfoPlist.strings */; };
-		A94111F917919EC4009773ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94111F817919EC4009773ED /* main.m */; };
-		A94111FD17919EC4009773ED /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94111FC17919EC4009773ED /* CFAppDelegate.m */; };
-		A94111FF17919EC4009773ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A94111FE17919EC4009773ED /* Default.png */; };
-		A941120117919EC4009773ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A941120017919EC4009773ED /* Default@2x.png */; };
-		A941120317919EC4009773ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A941120217919EC4009773ED /* Default-568h@2x.png */; };
-		A941120617919EC4009773ED /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A941120517919EC4009773ED /* CFViewController.m */; };
-		A941120917919EC4009773ED /* CFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A941120717919EC4009773ED /* CFViewController.xib */; };
-		A9514FC81794B10F007D22CC /* CFProdutoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9514FC61794B10F007D22CC /* CFProdutoView.m */; };
-		A9514FC91794B10F007D22CC /* CFProdutoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9514FC71794B10F007D22CC /* CFProdutoView.xib */; };
-		BA50154017A0979B008AA36F /* CFFluxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50153F17A0979B008AA36F /* CFFluxControl.m */; };
-		BAC90BA317A0AF1C008D4D25 /* CFProdutosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC90BA117A0AF1C008D4D25 /* CFProdutosViewController.m */; };
-		BAC90BA417A0AF1C008D4D25 /* CFProdutosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC90BA217A0AF1C008D4D25 /* CFProdutosViewController.xib */; };
+		A944463317A6ABC600D5445C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944463217A6ABC600D5445C /* UIKit.framework */; };
+		A944463517A6ABC600D5445C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944463417A6ABC600D5445C /* Foundation.framework */; };
+		A944463717A6ABC600D5445C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A944463617A6ABC600D5445C /* CoreGraphics.framework */; };
+		A944463D17A6ABC600D5445C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A944463B17A6ABC600D5445C /* InfoPlist.strings */; };
+		A944463F17A6ABC600D5445C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A944463E17A6ABC600D5445C /* main.m */; };
+		A944464317A6ABC600D5445C /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A944464217A6ABC600D5445C /* CFAppDelegate.m */; };
+		A944464517A6ABC600D5445C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A944464417A6ABC600D5445C /* Default.png */; };
+		A944464717A6ABC600D5445C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A944464617A6ABC600D5445C /* Default@2x.png */; };
+		A944464917A6ABC600D5445C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A944464817A6ABC600D5445C /* Default-568h@2x.png */; };
+		A944464C17A6ABC600D5445C /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A944464B17A6ABC600D5445C /* CFViewController.m */; };
+		A944464F17A6ABC600D5445C /* CFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944464D17A6ABC600D5445C /* CFViewController.xib */; };
+		A944465717A6AC2E00D5445C /* CFFluxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A944465617A6AC2E00D5445C /* CFFluxControl.m */; };
+		A944465D17A6AD3200D5445C /* CFViewSupermercados.m in Sources */ = {isa = PBXBuildFile; fileRef = A944465B17A6AD3200D5445C /* CFViewSupermercados.m */; };
+		A944465E17A6AD3200D5445C /* CFViewSupermercados.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944465C17A6AD3200D5445C /* CFViewSupermercados.xib */; };
+		A944466217A6B2BE00D5445C /* CFViewProdutos.m in Sources */ = {isa = PBXBuildFile; fileRef = A944466017A6B2BE00D5445C /* CFViewProdutos.m */; };
+		A944466317A6B2BE00D5445C /* CFViewProdutos.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944466117A6B2BE00D5445C /* CFViewProdutos.xib */; };
+		A944466817A6B79400D5445C /* CFViewSupermercado.m in Sources */ = {isa = PBXBuildFile; fileRef = A944466617A6B79400D5445C /* CFViewSupermercado.m */; };
+		A944466917A6B79400D5445C /* CFViewSupermercado.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944466717A6B79400D5445C /* CFViewSupermercado.xib */; };
+		A944466D17A6CC1400D5445C /* CFViewProduto.m in Sources */ = {isa = PBXBuildFile; fileRef = A944466B17A6CC1400D5445C /* CFViewProduto.m */; };
+		A944466E17A6CC1400D5445C /* CFViewProduto.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944466C17A6CC1400D5445C /* CFViewProduto.xib */; };
+		A944467217A6CDAF00D5445C /* CFViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A944467017A6CDAE00D5445C /* CFViewMenu.m */; };
+		A944467317A6CDAF00D5445C /* CFViewMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944467117A6CDAE00D5445C /* CFViewMenu.xib */; };
+		A944467617A6CF9600D5445C /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = A944467417A6CF9600D5445C /* Home.png */; };
+		A944467717A6CF9600D5445C /* Supermercados.png in Resources */ = {isa = PBXBuildFile; fileRef = A944467517A6CF9600D5445C /* Supermercados.png */; };
+		A944467917A6D0B600D5445C /* shopCart.png in Resources */ = {isa = PBXBuildFile; fileRef = A944467817A6D0B600D5445C /* shopCart.png */; };
+		A944467B17A6D18B00D5445C /* produtos.png in Resources */ = {isa = PBXBuildFile; fileRef = A944467A17A6D18B00D5445C /* produtos.png */; };
+		A944468017A6ED4C00D5445C /* CFViewListas.m in Sources */ = {isa = PBXBuildFile; fileRef = A944467E17A6ED4C00D5445C /* CFViewListas.m */; };
+		A944468117A6ED4C00D5445C /* CFViewListas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944467F17A6ED4C00D5445C /* CFViewListas.xib */; };
+		A944468517A6F0FA00D5445C /* CFViewLista.m in Sources */ = {isa = PBXBuildFile; fileRef = A944468317A6F0FA00D5445C /* CFViewLista.m */; };
+		A944468617A6F0FA00D5445C /* CFViewLista.xib in Resources */ = {isa = PBXBuildFile; fileRef = A944468417A6F0FA00D5445C /* CFViewLista.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A919732F179316A00036B02D /* CFMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFMenuController.h; path = ../CFMenuController.h; sourceTree = "<group>"; };
-		A9197330179316A00036B02D /* CFMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFMenuController.m; path = ../CFMenuController.m; sourceTree = "<group>"; };
-		A9197331179316A00036B02D /* CFMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CFMenuController.xib; path = ../CFMenuController.xib; sourceTree = "<group>"; };
-		A9268E531799F0520065158E /* CFEstabelecimentoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFEstabelecimentoView.h; sourceTree = "<group>"; };
-		A9268E541799F0520065158E /* CFEstabelecimentoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFEstabelecimentoView.m; sourceTree = "<group>"; };
-		A9268E551799F0520065158E /* CFEstabelecimentoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFEstabelecimentoView.xib; sourceTree = "<group>"; };
-		A9268E58179B3F790065158E /* CFListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFListView.h; sourceTree = "<group>"; };
-		A9268E59179B3F790065158E /* CFListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFListView.m; sourceTree = "<group>"; };
-		A9268E5A179B3F790065158E /* CFListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFListView.xib; sourceTree = "<group>"; };
-		A9268E60179B45000065158E /* CFItemListaCompras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFItemListaCompras.h; sourceTree = "<group>"; };
-		A9268E61179B45000065158E /* CFItemListaCompras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFItemListaCompras.m; sourceTree = "<group>"; };
-		A9268E63179B48120065158E /* CFEstabelecimentosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFEstabelecimentosView.h; sourceTree = "<group>"; };
-		A9268E64179B48120065158E /* CFEstabelecimentosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFEstabelecimentosView.m; sourceTree = "<group>"; };
-		A9268E65179B48120065158E /* CFEstabelecimentosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFEstabelecimentosView.xib; sourceTree = "<group>"; };
-		A94111E917919EC4009773ED /* CompraFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompraFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A94111EC17919EC4009773ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A94111EE17919EC4009773ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A94111F017919EC4009773ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A94111F417919EC4009773ED /* CompraFacil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompraFacil-Info.plist"; sourceTree = "<group>"; };
-		A94111F617919EC4009773ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A94111F817919EC4009773ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A94111FA17919EC4009773ED /* CompraFacil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompraFacil-Prefix.pch"; sourceTree = "<group>"; };
-		A94111FB17919EC4009773ED /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
-		A94111FC17919EC4009773ED /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
-		A94111FE17919EC4009773ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A941120017919EC4009773ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A941120217919EC4009773ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A941120417919EC4009773ED /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
-		A941120517919EC4009773ED /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
-		A941120817919EC4009773ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CFViewController.xib; sourceTree = "<group>"; };
-		A9514FC51794B10F007D22CC /* CFProdutoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFProdutoView.h; sourceTree = "<group>"; };
-		A9514FC61794B10F007D22CC /* CFProdutoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFProdutoView.m; sourceTree = "<group>"; };
-		A9514FC71794B10F007D22CC /* CFProdutoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFProdutoView.xib; sourceTree = "<group>"; };
-		BA50153E17A0979B008AA36F /* CFFluxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFluxControl.h; sourceTree = "<group>"; };
-		BA50153F17A0979B008AA36F /* CFFluxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFluxControl.m; sourceTree = "<group>"; };
-		BAC90BA017A0AF1C008D4D25 /* CFProdutosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFProdutosViewController.h; sourceTree = "<group>"; };
-		BAC90BA117A0AF1C008D4D25 /* CFProdutosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFProdutosViewController.m; sourceTree = "<group>"; };
-		BAC90BA217A0AF1C008D4D25 /* CFProdutosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFProdutosViewController.xib; sourceTree = "<group>"; };
+		A944462F17A6ABC600D5445C /* CompraFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompraFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A944463217A6ABC600D5445C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A944463417A6ABC600D5445C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A944463617A6ABC600D5445C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A944463A17A6ABC600D5445C /* CompraFacil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompraFacil-Info.plist"; sourceTree = "<group>"; };
+		A944463C17A6ABC600D5445C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A944463E17A6ABC600D5445C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A944464017A6ABC600D5445C /* CompraFacil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompraFacil-Prefix.pch"; sourceTree = "<group>"; };
+		A944464117A6ABC600D5445C /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		A944464217A6ABC600D5445C /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		A944464417A6ABC600D5445C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A944464617A6ABC600D5445C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A944464817A6ABC600D5445C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A944464A17A6ABC600D5445C /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		A944464B17A6ABC600D5445C /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		A944464E17A6ABC600D5445C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CFViewController.xib; sourceTree = "<group>"; };
+		A944465517A6AC2E00D5445C /* CFFluxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFluxControl.h; sourceTree = "<group>"; };
+		A944465617A6AC2E00D5445C /* CFFluxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFluxControl.m; sourceTree = "<group>"; };
+		A944465A17A6AD3200D5445C /* CFViewSupermercados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewSupermercados.h; sourceTree = "<group>"; };
+		A944465B17A6AD3200D5445C /* CFViewSupermercados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewSupermercados.m; sourceTree = "<group>"; };
+		A944465C17A6AD3200D5445C /* CFViewSupermercados.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewSupermercados.xib; sourceTree = "<group>"; };
+		A944465F17A6B2BE00D5445C /* CFViewProdutos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewProdutos.h; sourceTree = "<group>"; };
+		A944466017A6B2BE00D5445C /* CFViewProdutos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewProdutos.m; sourceTree = "<group>"; };
+		A944466117A6B2BE00D5445C /* CFViewProdutos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewProdutos.xib; sourceTree = "<group>"; };
+		A944466517A6B79400D5445C /* CFViewSupermercado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewSupermercado.h; sourceTree = "<group>"; };
+		A944466617A6B79400D5445C /* CFViewSupermercado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewSupermercado.m; sourceTree = "<group>"; };
+		A944466717A6B79400D5445C /* CFViewSupermercado.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewSupermercado.xib; sourceTree = "<group>"; };
+		A944466A17A6CC1400D5445C /* CFViewProduto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewProduto.h; sourceTree = "<group>"; };
+		A944466B17A6CC1400D5445C /* CFViewProduto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewProduto.m; sourceTree = "<group>"; };
+		A944466C17A6CC1400D5445C /* CFViewProduto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewProduto.xib; sourceTree = "<group>"; };
+		A944466F17A6CDAE00D5445C /* CFViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewMenu.h; sourceTree = "<group>"; };
+		A944467017A6CDAE00D5445C /* CFViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewMenu.m; sourceTree = "<group>"; };
+		A944467117A6CDAE00D5445C /* CFViewMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewMenu.xib; sourceTree = "<group>"; };
+		A944467417A6CF9600D5445C /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		A944467517A6CF9600D5445C /* Supermercados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Supermercados.png; sourceTree = "<group>"; };
+		A944467817A6D0B600D5445C /* shopCart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopCart.png; sourceTree = "<group>"; };
+		A944467A17A6D18B00D5445C /* produtos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = produtos.png; sourceTree = "<group>"; };
+		A944467D17A6ED4C00D5445C /* CFViewListas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewListas.h; sourceTree = "<group>"; };
+		A944467E17A6ED4C00D5445C /* CFViewListas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewListas.m; sourceTree = "<group>"; };
+		A944467F17A6ED4C00D5445C /* CFViewListas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewListas.xib; sourceTree = "<group>"; };
+		A944468217A6F0FA00D5445C /* CFViewLista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewLista.h; sourceTree = "<group>"; };
+		A944468317A6F0FA00D5445C /* CFViewLista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewLista.m; sourceTree = "<group>"; };
+		A944468417A6F0FA00D5445C /* CFViewLista.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFViewLista.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A94111E617919EC4009773ED /* Frameworks */ = {
+		A944462C17A6ABC600D5445C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94111ED17919EC4009773ED /* UIKit.framework in Frameworks */,
-				A94111EF17919EC4009773ED /* Foundation.framework in Frameworks */,
-				A94111F117919EC4009773ED /* CoreGraphics.framework in Frameworks */,
+				A944463317A6ABC600D5445C /* UIKit.framework in Frameworks */,
+				A944463517A6ABC600D5445C /* Foundation.framework in Frameworks */,
+				A944463717A6ABC600D5445C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A94111E017919EC4009773ED = {
+		A944462617A6ABC600D5445C = {
 			isa = PBXGroup;
 			children = (
-				A94111F217919EC4009773ED /* CompraFacil */,
-				A94111EB17919EC4009773ED /* Frameworks */,
-				A94111EA17919EC4009773ED /* Products */,
+				A944463817A6ABC600D5445C /* CompraFacil */,
+				A944463117A6ABC600D5445C /* Frameworks */,
+				A944463017A6ABC600D5445C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A94111EA17919EC4009773ED /* Products */ = {
+		A944463017A6ABC600D5445C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A94111E917919EC4009773ED /* CompraFacil.app */,
+				A944462F17A6ABC600D5445C /* CompraFacil.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A94111EB17919EC4009773ED /* Frameworks */ = {
+		A944463117A6ABC600D5445C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A94111EC17919EC4009773ED /* UIKit.framework */,
-				A94111EE17919EC4009773ED /* Foundation.framework */,
-				A94111F017919EC4009773ED /* CoreGraphics.framework */,
+				A944463217A6ABC600D5445C /* UIKit.framework */,
+				A944463417A6ABC600D5445C /* Foundation.framework */,
+				A944463617A6ABC600D5445C /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A94111F217919EC4009773ED /* CompraFacil */ = {
+		A944463817A6ABC600D5445C /* CompraFacil */ = {
 			isa = PBXGroup;
 			children = (
-				A94111FB17919EC4009773ED /* CFAppDelegate.h */,
-				A94111FC17919EC4009773ED /* CFAppDelegate.m */,
-				A9268E63179B48120065158E /* CFEstabelecimentosView.h */,
-				A9268E64179B48120065158E /* CFEstabelecimentosView.m */,
-				A9268E65179B48120065158E /* CFEstabelecimentosView.xib */,
-				A9268E531799F0520065158E /* CFEstabelecimentoView.h */,
-				A9268E541799F0520065158E /* CFEstabelecimentoView.m */,
-				A9268E551799F0520065158E /* CFEstabelecimentoView.xib */,
-				BA50153E17A0979B008AA36F /* CFFluxControl.h */,
-				BA50153F17A0979B008AA36F /* CFFluxControl.m */,
-				A9268E60179B45000065158E /* CFItemListaCompras.h */,
-				A9268E61179B45000065158E /* CFItemListaCompras.m */,
-				A9268E58179B3F790065158E /* CFListView.h */,
-				A9268E59179B3F790065158E /* CFListView.m */,
-				A9268E5A179B3F790065158E /* CFListView.xib */,
-				A919732F179316A00036B02D /* CFMenuController.h */,
-				A9197330179316A00036B02D /* CFMenuController.m */,
-				A9197331179316A00036B02D /* CFMenuController.xib */,
-				BAC90BA017A0AF1C008D4D25 /* CFProdutosViewController.h */,
-				BAC90BA117A0AF1C008D4D25 /* CFProdutosViewController.m */,
-				BAC90BA217A0AF1C008D4D25 /* CFProdutosViewController.xib */,
-				A9514FC51794B10F007D22CC /* CFProdutoView.h */,
-				A9514FC61794B10F007D22CC /* CFProdutoView.m */,
-				A9514FC71794B10F007D22CC /* CFProdutoView.xib */,
-				A941120417919EC4009773ED /* CFViewController.h */,
-				A941120517919EC4009773ED /* CFViewController.m */,
-				A941120717919EC4009773ED /* CFViewController.xib */,
-				A94111F317919EC4009773ED /* Supporting Files */,
+				A944467C17A6ED0600D5445C /* Model */,
+				A944466417A6B6A300D5445C /* Listas */,
+				A944465917A6AC4800D5445C /* Supermercados */,
+				A944465817A6AC3B00D5445C /* Produtos */,
+				A944466F17A6CDAE00D5445C /* CFViewMenu.h */,
+				A944467017A6CDAE00D5445C /* CFViewMenu.m */,
+				A944467117A6CDAE00D5445C /* CFViewMenu.xib */,
+				A944465517A6AC2E00D5445C /* CFFluxControl.h */,
+				A944465617A6AC2E00D5445C /* CFFluxControl.m */,
+				A944464117A6ABC600D5445C /* CFAppDelegate.h */,
+				A944464217A6ABC600D5445C /* CFAppDelegate.m */,
+				A944464A17A6ABC600D5445C /* CFViewController.h */,
+				A944464B17A6ABC600D5445C /* CFViewController.m */,
+				A944464D17A6ABC600D5445C /* CFViewController.xib */,
+				A944463917A6ABC600D5445C /* Supporting Files */,
 			);
 			path = CompraFacil;
 			sourceTree = "<group>";
 		};
-		A94111F317919EC4009773ED /* Supporting Files */ = {
+		A944463917A6ABC600D5445C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A94111F417919EC4009773ED /* CompraFacil-Info.plist */,
-				A94111F517919EC4009773ED /* InfoPlist.strings */,
-				A94111F817919EC4009773ED /* main.m */,
-				A94111FA17919EC4009773ED /* CompraFacil-Prefix.pch */,
-				A94111FE17919EC4009773ED /* Default.png */,
-				A941120017919EC4009773ED /* Default@2x.png */,
-				A941120217919EC4009773ED /* Default-568h@2x.png */,
+				A944467A17A6D18B00D5445C /* produtos.png */,
+				A944467817A6D0B600D5445C /* shopCart.png */,
+				A944467417A6CF9600D5445C /* Home.png */,
+				A944467517A6CF9600D5445C /* Supermercados.png */,
+				A944463A17A6ABC600D5445C /* CompraFacil-Info.plist */,
+				A944463B17A6ABC600D5445C /* InfoPlist.strings */,
+				A944463E17A6ABC600D5445C /* main.m */,
+				A944464017A6ABC600D5445C /* CompraFacil-Prefix.pch */,
+				A944464417A6ABC600D5445C /* Default.png */,
+				A944464617A6ABC600D5445C /* Default@2x.png */,
+				A944464817A6ABC600D5445C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A944465817A6AC3B00D5445C /* Produtos */ = {
+			isa = PBXGroup;
+			children = (
+				A944465F17A6B2BE00D5445C /* CFViewProdutos.h */,
+				A944466017A6B2BE00D5445C /* CFViewProdutos.m */,
+				A944466117A6B2BE00D5445C /* CFViewProdutos.xib */,
+				A944466A17A6CC1400D5445C /* CFViewProduto.h */,
+				A944466B17A6CC1400D5445C /* CFViewProduto.m */,
+				A944466C17A6CC1400D5445C /* CFViewProduto.xib */,
+			);
+			name = Produtos;
+			sourceTree = "<group>";
+		};
+		A944465917A6AC4800D5445C /* Supermercados */ = {
+			isa = PBXGroup;
+			children = (
+				A944465A17A6AD3200D5445C /* CFViewSupermercados.h */,
+				A944465B17A6AD3200D5445C /* CFViewSupermercados.m */,
+				A944465C17A6AD3200D5445C /* CFViewSupermercados.xib */,
+				A944466517A6B79400D5445C /* CFViewSupermercado.h */,
+				A944466617A6B79400D5445C /* CFViewSupermercado.m */,
+				A944466717A6B79400D5445C /* CFViewSupermercado.xib */,
+			);
+			name = Supermercados;
+			sourceTree = "<group>";
+		};
+		A944466417A6B6A300D5445C /* Listas */ = {
+			isa = PBXGroup;
+			children = (
+				A944467D17A6ED4C00D5445C /* CFViewListas.h */,
+				A944467E17A6ED4C00D5445C /* CFViewListas.m */,
+				A944467F17A6ED4C00D5445C /* CFViewListas.xib */,
+				A944468217A6F0FA00D5445C /* CFViewLista.h */,
+				A944468317A6F0FA00D5445C /* CFViewLista.m */,
+				A944468417A6F0FA00D5445C /* CFViewLista.xib */,
+			);
+			name = Listas;
+			sourceTree = "<group>";
+		};
+		A944467C17A6ED0600D5445C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A94111E817919EC4009773ED /* CompraFacil */ = {
+		A944462E17A6ABC600D5445C /* CompraFacil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A941120C17919EC4009773ED /* Build configuration list for PBXNativeTarget "CompraFacil" */;
+			buildConfigurationList = A944465217A6ABC600D5445C /* Build configuration list for PBXNativeTarget "CompraFacil" */;
 			buildPhases = (
-				A94111E517919EC4009773ED /* Sources */,
-				A94111E617919EC4009773ED /* Frameworks */,
-				A94111E717919EC4009773ED /* Resources */,
+				A944462B17A6ABC600D5445C /* Sources */,
+				A944462C17A6ABC600D5445C /* Frameworks */,
+				A944462D17A6ABC600D5445C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -182,91 +229,96 @@
 			);
 			name = CompraFacil;
 			productName = CompraFacil;
-			productReference = A94111E917919EC4009773ED /* CompraFacil.app */;
+			productReference = A944462F17A6ABC600D5445C /* CompraFacil.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A94111E117919EC4009773ED /* Project object */ = {
+		A944462717A6ABC600D5445C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CF;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pedro Farias Barbosa";
 			};
-			buildConfigurationList = A94111E417919EC4009773ED /* Build configuration list for PBXProject "CompraFacil" */;
+			buildConfigurationList = A944462A17A6ABC600D5445C /* Build configuration list for PBXProject "CompraFacil" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A94111E017919EC4009773ED;
-			productRefGroup = A94111EA17919EC4009773ED /* Products */;
+			mainGroup = A944462617A6ABC600D5445C;
+			productRefGroup = A944463017A6ABC600D5445C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A94111E817919EC4009773ED /* CompraFacil */,
+				A944462E17A6ABC600D5445C /* CompraFacil */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A94111E717919EC4009773ED /* Resources */ = {
+		A944462D17A6ABC600D5445C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94111F717919EC4009773ED /* InfoPlist.strings in Resources */,
-				A94111FF17919EC4009773ED /* Default.png in Resources */,
-				A941120117919EC4009773ED /* Default@2x.png in Resources */,
-				A941120317919EC4009773ED /* Default-568h@2x.png in Resources */,
-				A941120917919EC4009773ED /* CFViewController.xib in Resources */,
-				A9197333179316A00036B02D /* CFMenuController.xib in Resources */,
-				A9514FC91794B10F007D22CC /* CFProdutoView.xib in Resources */,
-				A9268E571799F0520065158E /* CFEstabelecimentoView.xib in Resources */,
-				A9268E5C179B3F790065158E /* CFListView.xib in Resources */,
-				A9268E67179B48120065158E /* CFEstabelecimentosView.xib in Resources */,
-				BAC90BA417A0AF1C008D4D25 /* CFProdutosViewController.xib in Resources */,
+				A944463D17A6ABC600D5445C /* InfoPlist.strings in Resources */,
+				A944464517A6ABC600D5445C /* Default.png in Resources */,
+				A944464717A6ABC600D5445C /* Default@2x.png in Resources */,
+				A944464917A6ABC600D5445C /* Default-568h@2x.png in Resources */,
+				A944464F17A6ABC600D5445C /* CFViewController.xib in Resources */,
+				A944465E17A6AD3200D5445C /* CFViewSupermercados.xib in Resources */,
+				A944466317A6B2BE00D5445C /* CFViewProdutos.xib in Resources */,
+				A944466917A6B79400D5445C /* CFViewSupermercado.xib in Resources */,
+				A944466E17A6CC1400D5445C /* CFViewProduto.xib in Resources */,
+				A944467317A6CDAF00D5445C /* CFViewMenu.xib in Resources */,
+				A944467617A6CF9600D5445C /* Home.png in Resources */,
+				A944467717A6CF9600D5445C /* Supermercados.png in Resources */,
+				A944467917A6D0B600D5445C /* shopCart.png in Resources */,
+				A944467B17A6D18B00D5445C /* produtos.png in Resources */,
+				A944468117A6ED4C00D5445C /* CFViewListas.xib in Resources */,
+				A944468617A6F0FA00D5445C /* CFViewLista.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A94111E517919EC4009773ED /* Sources */ = {
+		A944462B17A6ABC600D5445C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94111F917919EC4009773ED /* main.m in Sources */,
-				A94111FD17919EC4009773ED /* CFAppDelegate.m in Sources */,
-				A941120617919EC4009773ED /* CFViewController.m in Sources */,
-				A9197332179316A00036B02D /* CFMenuController.m in Sources */,
-				A9514FC81794B10F007D22CC /* CFProdutoView.m in Sources */,
-				A9268E561799F0520065158E /* CFEstabelecimentoView.m in Sources */,
-				A9268E5B179B3F790065158E /* CFListView.m in Sources */,
-				A9268E62179B45010065158E /* CFItemListaCompras.m in Sources */,
-				A9268E66179B48120065158E /* CFEstabelecimentosView.m in Sources */,
-				BA50154017A0979B008AA36F /* CFFluxControl.m in Sources */,
-				BAC90BA317A0AF1C008D4D25 /* CFProdutosViewController.m in Sources */,
+				A944463F17A6ABC600D5445C /* main.m in Sources */,
+				A944464317A6ABC600D5445C /* CFAppDelegate.m in Sources */,
+				A944464C17A6ABC600D5445C /* CFViewController.m in Sources */,
+				A944465717A6AC2E00D5445C /* CFFluxControl.m in Sources */,
+				A944465D17A6AD3200D5445C /* CFViewSupermercados.m in Sources */,
+				A944466217A6B2BE00D5445C /* CFViewProdutos.m in Sources */,
+				A944466817A6B79400D5445C /* CFViewSupermercado.m in Sources */,
+				A944466D17A6CC1400D5445C /* CFViewProduto.m in Sources */,
+				A944467217A6CDAF00D5445C /* CFViewMenu.m in Sources */,
+				A944468017A6ED4C00D5445C /* CFViewListas.m in Sources */,
+				A944468517A6F0FA00D5445C /* CFViewLista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A94111F517919EC4009773ED /* InfoPlist.strings */ = {
+		A944463B17A6ABC600D5445C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A94111F617919EC4009773ED /* en */,
+				A944463C17A6ABC600D5445C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A941120717919EC4009773ED /* CFViewController.xib */ = {
+		A944464D17A6ABC600D5445C /* CFViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A941120817919EC4009773ED /* en */,
+				A944464E17A6ABC600D5445C /* en */,
 			);
 			name = CFViewController.xib;
 			sourceTree = "<group>";
@@ -274,7 +326,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A941120A17919EC4009773ED /* Debug */ = {
+		A944465017A6ABC600D5445C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		A941120B17919EC4009773ED /* Release */ = {
+		A944465117A6ABC600D5445C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +380,7 @@
 			};
 			name = Release;
 		};
-		A941120D17919EC4009773ED /* Debug */ = {
+		A944465317A6ABC600D5445C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -339,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		A941120E17919EC4009773ED /* Release */ = {
+		A944465417A6ABC600D5445C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -353,25 +405,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A94111E417919EC4009773ED /* Build configuration list for PBXProject "CompraFacil" */ = {
+		A944462A17A6ABC600D5445C /* Build configuration list for PBXProject "CompraFacil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A941120A17919EC4009773ED /* Debug */,
-				A941120B17919EC4009773ED /* Release */,
+				A944465017A6ABC600D5445C /* Debug */,
+				A944465117A6ABC600D5445C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A941120C17919EC4009773ED /* Build configuration list for PBXNativeTarget "CompraFacil" */ = {
+		A944465217A6ABC600D5445C /* Build configuration list for PBXNativeTarget "CompraFacil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A941120D17919EC4009773ED /* Debug */,
-				A941120E17919EC4009773ED /* Release */,
+				A944465317A6ABC600D5445C /* Debug */,
+				A944465417A6ABC600D5445C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A94111E117919EC4009773ED /* Project object */;
+	rootObject = A944462717A6ABC600D5445C /* Project object */;
 }

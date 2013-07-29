@@ -2,7 +2,7 @@
 //  CFAppDelegate.m
 //  CompraFacil
 //
-//  Created by Pedro Farias Barbosa on 13/07/13.
+//  Created by Pedro Farias Barbosa on 29/07/13.
 //  Copyright (c) 2013 Pedro Farias Barbosa. All rights reserved.
 //
 
@@ -15,6 +15,7 @@
 - (void)dealloc
 {
     [_window release];
+    [_viewController release];
     [super dealloc];
 }
 
@@ -22,7 +23,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    
+
     CFViewController *viewController = [[CFViewController alloc] init];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
